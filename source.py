@@ -12,3 +12,4 @@ print(request_url.read())
 # install it
 urllib.request.install_opener(opener)
 f = urllib.request.urlopen('https://www.python.org/')
+print(f)
